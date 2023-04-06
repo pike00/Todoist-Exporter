@@ -5,3 +5,4 @@ projects.json
 tasks.json
 *.json
 secrets.py
+config.py
