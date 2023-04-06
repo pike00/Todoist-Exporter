@@ -1,0 +1,6 @@
+venv/
+tasks/
+projects/
+projects.json
+tasks.json
+*.json
