@@ -4,3 +4,4 @@ projects/
 projects.json
 tasks.json
 *.json
+secrets.py

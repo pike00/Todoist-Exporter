@@ -6,7 +6,7 @@ from todoist_api_python.api import TodoistAPI
 from tqdm import tqdm
 
 BASE_URL = "https://api.todoist.com/rest/v2/"
-HEADERS = {"Authorization": "Bearer 82d97566b97c9dbfa781b53049ed284953cd4c99"}
+HEADERS = {"Authorization": "Bearer {bearer_token}"}
 
 projects = requests.get(BASE_URL + "projects", headers=HEADERS).json()
 
