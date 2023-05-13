@@ -12,7 +12,7 @@ import os
 files = glob("tasks/**.json")   
 
 BASE_URL = "https://api.todoist.com/rest/v2/"
-HEADERS = {"Authorization": "Bearer 82d97566b97c9dbfa781b53049ed284953cd4c99"}
+HEADERS = {"Authorization": "Bearer <token>"}
 
 tasks_json = []
 
