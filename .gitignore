@@ -6,3 +6,5 @@ tasks.json
 *.json
 secrets.py
 config.py
+abem_files.txt
+__pycache__
